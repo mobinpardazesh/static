@@ -1,0 +1,35 @@
+#products .container {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: #bac2bc;
+    direction: rtl;
+}
+.width-full {
+    width: 100%;
+}
+.splide__slide.custom-effect {
+    transition: 0.3s all;
+    border-bottom: 3px solid transparent;
+}
+
+
+.splide__slide.custom-effect.is-active {
+   border-bottom-color: #bac2bc;
+}
+
+.wrapper-center {
+    width: 75%;
+    margin: 2rem auto;
+}
+
+.my-slider-progress {
+    background: #ccc;
+}
+
+.my-slider-progress-bar {
+    background: greenyellow;
+    height: 5px;
+    transition: width 400ms ease;
+    width: 0;
+}
