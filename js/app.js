@@ -9,7 +9,7 @@ $(document).ready(function () {
         items: 1,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 3000,
+        autoplayTimeout: 5000,
         autoplayHoverPause: false,
         smartSpeed: 2000,
         navText: ['PREV', 'NEXT'],
